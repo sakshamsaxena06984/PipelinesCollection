@@ -1,0 +1,4 @@
+Task1: need to write dataframe into Hive as a HiveTable
+Task2: need to write dataframe into MYSQL database using JDBC driver...
+Task3: Enable the Hive support
+spark = SparkSession.builder.master(*).appName(xy).enableHiveSupport().getOrCreate()
